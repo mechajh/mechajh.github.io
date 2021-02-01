@@ -1,0 +1,41 @@
+<div id="_yDrawer">
+  <div id="_sidebar" class="sidebar">
+    <div class="sidebar-bg" style="background-color:{{ color }};background-image:url({{ image }})"></div>
+    <header class="sidebar-sticky" role="banner">
+      <br/>
+
+     
+
+      <div class="sidebar-about">
+        
+        <h1><a id="_title" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        {{ site.tagline | truncatewords:50 | markdownify }}
+        
+      </div>
+      {{ site.description | truncatewords:50 | markdownify }}
+      {% assign author = site.data.authors.first[1] %}
+      {% if author.social %}
+      
+      
+      <br/>
+      <br/>
+      <nav class="sidebar-nav heading" role="navigation">
+        {% include nav.html %}
+      </nav>
+    <br/>
+    
+    <div style="text-align: center;">
+      <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmechajh.github.io&count_bg=%233D91C8&title_bg=%237A7A7A&icon=hey.svg&icon_color=%23000000&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+%EC%88%98&edge_flat=false"/></a>
+      <div>
+        
+    <br/>
+    
+        <div class="sidebar-social">
+          {% include social.html social=author.social %}
+        </div>
+       
+      {% endif %}
+      
+    </header>
+  </div>
+</div>

@@ -37,7 +37,7 @@ kjh:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:        <username>
+    instagram:        jeonghee54
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -62,7 +62,7 @@ kjh:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mechajh@naver.com
+    # email:           mechajh@naver.com
     rss:             https://mechajh.github.io/feed.xml
 
 # Another author

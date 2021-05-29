@@ -49,12 +49,16 @@ http://www.tipue.com/search
      box-shadow: none;
     outline: 0;
     margin: 0;
+    text-align: center
+    ;
 }
 .tipue_search_icon
 {
-     width: 20px;
-     height: 20px;
-     margin-bottom: 1rem;
+     width: 30px;
+     height: 30px;
+     margin:auto
+
+     
      
 }
 .tipue_search_left
